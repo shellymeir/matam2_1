@@ -63,7 +63,6 @@ void destroy(Node head) {
     }
 }
 
-
 ErrorCode mergeSortedLists(Node list1, Node list2, Node *merged_out)
 {
     ErrorCode flag;
@@ -144,7 +143,6 @@ ErrorCode mergeSortedLists(Node list1, Node list2, Node *merged_out)
     return SUCCESS;
 
 }
-
 
 int main() {
     Node merged_out = NULL;
